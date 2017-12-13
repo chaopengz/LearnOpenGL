@@ -157,6 +157,7 @@
     <ClCompile Include="Shaders_uniform.cpp" />
     <ClCompile Include="stb_image.cpp" />
     <ClCompile Include="Textures.cpp" />
+    <ClCompile Include="textures_combined.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader_s.h" />
