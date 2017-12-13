@@ -155,9 +155,12 @@
     <ClCompile Include="Shaders_class.cpp" />
     <ClCompile Include="Shaders_interpolation.cpp" />
     <ClCompile Include="Shaders_uniform.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="Textures.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader_s.h" />
+    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
