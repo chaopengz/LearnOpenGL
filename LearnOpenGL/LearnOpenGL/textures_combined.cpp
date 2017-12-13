@@ -109,7 +109,8 @@ int main()
 		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGBA/*一开始这里写成了GL_RGB了*/, GL_UNSIGNED_BYTE, data);
 		glGenerateMipmap(GL_TEXTURE_2D);
 	}
-	else {
+	else
+	{
 		std::cout << "Failed to load texture" << std::endl;
 	}
 	stbi_image_free(data);
