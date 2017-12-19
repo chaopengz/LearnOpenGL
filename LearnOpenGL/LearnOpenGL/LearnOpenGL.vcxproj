@@ -150,6 +150,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\glad.c" />
+    <ClCompile Include="camera_circle.cpp" />
+    <ClCompile Include="camera_keyboard_dt.cpp" />
+    <ClCompile Include="camera_mouse_zoom.cpp" />
     <ClCompile Include="coordinate_systems.cpp" />
     <ClCompile Include="coordinate_systems_depth.cpp" />
     <ClCompile Include="coordinate_systems_multiple.cpp" />
